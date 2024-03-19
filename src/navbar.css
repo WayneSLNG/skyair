@@ -1,0 +1,48 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  background-color: transparent !important;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 800px;
+}
+
+
+.navbar-nav .nav-item {
+  margin-right: 90px;
+  font-size: 25px;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.number-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
